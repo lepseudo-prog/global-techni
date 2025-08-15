@@ -34,7 +34,7 @@ The project includes:
 
 ### 1 Clone repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/global-techni.git
+git clone https://github.com/lepseudo-prog/global-techni.git
 cd global-techni
 ```
 ### 2 Run the development server:
