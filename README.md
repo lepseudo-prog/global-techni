@@ -1,8 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Global Techni
 
-## Getting Started
+Full-stack e-commerce platform for selling electronics, mobile repair services, and LOA (Lease with Option to Buy) with identity verification and contract generation.  
+Built as a **Next.js monorepo** with **Supabase** for backend, auth, and file storage(maybe, not sure yet).
 
-First, run the development server:
+---
+
+## 🚀 Features (planned)
+- Sell electronics with online payments (Stripe integration planned)
+- Mobile repair request with order tracking
+- LOA system: upload documents, generate contracts, approve or reject requests
+- Secure file storage for sensitive documents
+- Authentication (email/password)
+- Admin panel for managing products/orders (later)
+
+---
+
+## 🛠 Tech Stack
+**Frontend & API**: Next.js 15 (App Router) + TypeScript  
+**Backend**: Next.js API Routes  
+**Database**: PostgreSQL (Supabase) + Prisma ORM  
+**Auth**: NextAuth.js (credentials provider)  
+**Storage**: Supabase Storage (not sure yet) 
+**PDF Generation**: pdfkit (planned)  
+
+---
+
+## 📦 Installation & Setup
+
+### 1 Clone repository
+```bash
+git clone https://github.com/YOUR_USERNAME/global-techni.git
+cd global-techni
+```
+### 2 Run the development server:
 
 ```bash
 npm run dev
@@ -13,24 +43,4 @@ pnpm dev
 # or
 bun dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
