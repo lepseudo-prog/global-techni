@@ -53,10 +53,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 📋 Checkpoints
 
 ✅ Checkpoint 1 – Database & Prisma setup with Supabase.
-⬜ Checkpoint 2 – BetterAuth integration with Supabase via Prisma.
+✅ Checkpoint 2 – BetterAuth integration with Supabase via Prisma.
 ⬜ Checkpoint 3 – Product & order API endpoints.
 ⬜ Checkpoint 4 – File storage integration for LOA documents.
 ⬜ Checkpoint 5 – Stripe payment integration (test mode).
 ⬜ Checkpoint 6 – Admin dashboard (CRUD products/orders).
 ⬜ Checkpoint 7 – Frontend UI integration (responsive design).
 ⬜ Checkpoint 8 – Deployment to Vercel & final testing.
+
+Note: might need to modify the better auth url in env file.
