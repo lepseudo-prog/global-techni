@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="bg-white shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
-          MyShop
+          GlobalTechni
         </Link>
         <div className="flex space-x-4">
           <Link href="/">
