@@ -2,6 +2,28 @@ import Image from "next/image";
 import ProductCard from "@/components/ProductCard";
 import { Button } from "@/components/ui/button";
 
+import { BannerCarousel } from '@/components/ui/BannerCarousel'
+
+const slides = [
+    {
+      title: 'Innovating the Future',
+      description: 'At GlobalTechni, we build solutions for tomorrow.',
+      image: '/images/banner1.jpg',
+      cta: { label: 'Learn More', href: '/about' },
+    },
+    {
+      title: 'Cutting-Edge Technology',
+      description: 'Empowering businesses with AI & cloud innovation.',
+      image: '/images/banner2.jpg',
+      cta: { label: 'Our Services', href: '/services' },
+    },
+    {
+      title: 'Join the Revolution',
+      description: 'Partner with us to shape the digital world.',
+      image: '/images/banner3.jpg',
+      cta: { label: 'Contact Us', href: '/contact' },
+    },
+  ]
 // Dummy product data
 const products = [
   {
@@ -65,6 +87,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-center mb-12">
         Bienvenue chez GlobalTechni
       </h1>
+      <BannerCarousel slides={slides} />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
         {services.map((service, index) => (
           <div
