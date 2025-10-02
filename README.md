@@ -62,4 +62,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ⬜ Checkpoint 8 – Deployment to Vercel & final testing.
 
 Note: might need to modify the better auth url in env file.
-push test
+push test d
