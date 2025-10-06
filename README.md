@@ -30,19 +30,19 @@ The project includes:
 ---
 
 
-## Installation & Setup
-# 1 Install Node.js
+# Installation & Setup
+## 1 Install Node.js
 Download and install Node.js (which includes npm) from nodejs.org. We recommend using the latest LTS version. Verify the installation by running:
 ```bash
 node -v
 npm -v
 ```
-# 2 Clone repository
+## 2 Clone repository
 ```bash
 git clone https://github.com/lepseudo-prog/global-techni.git
 cd global-techni
 ```
-# 3 Install dependencies
+## 3 Install dependencies
 Install the project dependencies using one of the following package managers:
 ```bash
 npm install
@@ -53,7 +53,7 @@ pnpm install
 # or
 bun install
 ```
-# 4 Run the development server
+## 4 Run the development server
 ```bash
 npm run dev
 # or
